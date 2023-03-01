@@ -14,11 +14,11 @@ import os
 import zipfile
 
 # Plant Generation Data
-df_gen_1 = pd.read_csv('/content/data/solar-power-generation-data/Plant_1_Generation_Data.csv')      #Gandikota
-df_gen_2 = pd.read_csv('/content/data/solar-power-generation-data/Plant_2_Generation_Data.csv')      #Nasik
+df_gen_1 = pd.read_csv('https://github.com/udaybhaskar717/Solar-Power-Forecasting/blob/main/Plant_1_Generation_Data.csv')      #Gandikota
+df_gen_2 = pd.read_csv('https://github.com/udaybhaskar717/Solar-Power-Forecasting/blob/main/Plant_2_Generation_Data.csv')      #Nasik
 # Plant Weather Data
-df_weather_1 = pd.read_csv('/content/data/solar-power-generation-data/Plant_1_Weather_Sensor_Data.csv') 
-df_weather_2= pd.read_csv('/content/data/solar-power-generation-data/Plant_1_Weather_Sensor_Data.csv')
+df_weather_1 = pd.read_csv('https://github.com/udaybhaskar717/Solar-Power-Forecasting/blob/main/Plant_1_Weather_Sensor_Data.csv') 
+df_weather_2= pd.read_csv('https://github.com/udaybhaskar717/Solar-Power-Forecasting/blob/main/Plant_2_Weather_Sensor_Data.csv')
 
 df_gen_1
 

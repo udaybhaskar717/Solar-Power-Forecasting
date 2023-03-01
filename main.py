@@ -627,7 +627,7 @@ print(f'Best Ensemble RMSE: {best_rmse:.4f}')
 ## Importing the libraries
 """
 
-pip install streamlit
+# pip install streamlit
 
 import pickle
 import streamlit as st
@@ -673,7 +673,7 @@ if st.sidebar.button('Predict'):
         'Irradiance': [Irradiance]
     })
     prediction = model.predict(data[['Ambient_Temperature','Module_Temperature','Irradiance']])[0]
-    st.success(f'The predicted solar power production is {prediction:.2f} kW')
+    st.success(f'The predicted solar power production is {prediction:.2f} MW')
 
-! streamlit run app.py
+# ! streamlit run app.py
 
